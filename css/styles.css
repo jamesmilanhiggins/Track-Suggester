@@ -1,11 +1,17 @@
 .tracks {
   display: none;
+  text-align: center;
+  background-color:#00b3b4;
+  color: white;
 }
 
 .answers { Might have to hid individual p's with ids
   display: none;
 }
 
+.e {
+  float: left;
+}
 
 img {
   height: 200px;
@@ -14,7 +20,7 @@ img {
 }
 
 body {
-  text-align: center;*/
+  text-align: right;
   font-size: 26px;
   background-color: #969696;
 
