@@ -13,7 +13,6 @@ $(document).ready(function() {
 
     if (typeOfDev === "look" && location === "portland") {
     $("#cssPDX").show('slow');
-
   } else if (typeOfDev === "look" && location === "seattle") {
     $("#cssSEA").show('slow');
 
@@ -26,7 +25,6 @@ $(document).ready(function() {
     $("#phpSEA").fadeIn('slow');
   } else if (ompany === "agency" && location === "portland" ){
     $("#phpPDX").fadeIn('slow');
-
 
     } else {
 

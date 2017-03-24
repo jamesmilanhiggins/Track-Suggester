@@ -16,7 +16,7 @@ The user fills out the select boxes and radio questions and once they click "cli
 * click "click to find..."
 * read the best track
 
-You can find the link to the live site here:
+You can find the link to the live site here: [[https://jamesmilanhiggins.github.io/Track-Suggester]
 
 ## Known Bugs
 

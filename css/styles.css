@@ -4,29 +4,23 @@
   background-color:#00b3b4;
   color: white;
 }
-
 .e {
   float: left;
 }
-
 img {
   height: 200px;
   width: auto;
   padding: 5px;
 }
-
 body {
-  text-align: right;
+  text-align: center;
   font-size: 26px;
   background-color: #969696;
-
 }
-
 .jumbotron {
   background-color: #00b3b4;
   color: white;
 }
-
 .btn {
   background-color: #00b3b4;
   font-size: 20px;
