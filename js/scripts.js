@@ -1,22 +1,23 @@
 $(document).ready(function() {
-  $("form#celebrity").submit(function(event) {
-    var food = $("select#food").val();
-    var color = $("select#color").val();
-    var age = $("select#age").val();
+  $("form#developer").submit(function(event) {
+    // var location = $("input:radio[name=location:checked]").val();
+    var typeOfDev = $("select#typeOfDev").val();
+    var company = $("select#company").val();
+    var projects = $("select#projects").val();
     var vacay = $("select#vacay").val();
 
-    $(".celebrity-names").hide();
+    $(".tracks").hide();
 
-    if (food === "tacos" && color === "red") {
+    if (typeOfDev === "work" && company === "startUp") {
 
-    $("#brad").fadeIn('slow');
+    $("#ruby-railsPDX").show('slow');
 
-  } else if (age === "21-40" && vacay === "Hawaii" || age === "21-40" && vacay === "Italy"){
-
-    $("#tom").fadeIn('slow');
+  // } else if (age === "21-40" && vacay === "Hawaii" || age === "21-40" && vacay === "Italy"){
+  //
+  //   $("#tom").fadeIn('slow');
 
     } else {
-    $("#zach").fadeIn('slow');
+    $("#cssSEA").fadeIn('slow');
   }
 
   event.preventDefault();
