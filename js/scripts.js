@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("form#developer").submit(function(event) {
     var yourNameInput = $("input#yourName").val();
     var location = $("input:radio[name=location]:checked").val();
-    // var location = $("select#location").val();
     var typeOfDev = $("select#typeOfDev").val();
     var company = $("select#company").val();
     var projects = $("select#projects").val();
