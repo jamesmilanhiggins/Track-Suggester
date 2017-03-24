@@ -14,16 +14,19 @@ $(document).ready(function() {
     $(".sidebar").hide();
 
 
-    if (typeOfDev === "look" && location === "portland") {
+    if (projects === "android" && location === "portland" ||company === "bigCompany" && location === "portland" ) {
+    $("#javaPDX").show('slow');
+  } else if (typeOfDev === "look" && location === "portland") {
     $("#cssPDX").show('slow');
   } else if (typeOfDev === "look" && location === "seattle") {
     $("#cssSEA").show('slow');
+  } else if (company === "agency" && location === "seattle") {
+    $("#phpSEA").show('slow');
+  } else if (company === "agency" && location === "portland") {
+    $("#phpPDX").show('slow');
 
-  // } else if (projects === "android" && location === "seattle" ){
-  //   $("#javaSEA").fadeIn('slow');
-  // } else if (projects === "android" && location === "portland" ){
-  //   $("#javaPDX").fadeIn('slow');
-  //
+
+
   // } else if (company === "agency" && location === "seattle" ){
   //   $("#phpSEA").fadeIn('slow');
   // } else if (ompany === "agency" && location === "portland" ){
