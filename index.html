@@ -3,7 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.2.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
     <title>Epicodus Track-Suggestor</title>
   </head>
@@ -13,48 +13,75 @@
         <h1>Epicodus Track-Suggestor</h1>
       </div>
       <form id="celebrity">
-        <label for="food">What is Your Favorite Food?</label>
+        <label for="location">Where  would you like to study?</label>
         <br>
-        <select id="food">
-          <option value="pie">Pie</option>
-          <option value="pizza">Pizza</option>
-          <option value="tacos">Tacos</option>
+        <select id="location">
+          <option value="pie">The Portland Location</option>
+          <option value="pizza">The Seattle Location</option>
         </select>
         <br>
         <br>
-        <label for="color">What is Your Favorite Color?</label>
+        <label for="typeOfDev">Which phrase best describes you</label>
         <br>
-        <select id="color">
-          <option value="red">Red</option>
-          <option value="green">Green</option>
-          <option value="blue">Blue</option>
+        <select id="typeOfDev">
+          <option value="look">I like to spend time on how things look.</option>
+          <option value="look">I like to spend time on how things work.</option>
         </select>
         <br>
         <br>
-        <label for="vacay">What is Dream Vacation Destination?</label>
+        <label for="company">What type of company would you like to work for?</label>
         <br>
-        <select id="vacay">
-          <option value="Hawaii">Hawaii</option>
-          <option value="Italy">Italy</option>
-          <option value="Mexico">Mexico</option>
+        <select id="company">
+          <option value="startUp">A small/young company or startup</option>
+          <option value="bigCompany">A big, established company</option>
+          <option value="agency">An agency, doing work for clients</option>
         </select>
         <br>
         <br>
-        <label for="age">How Old are You?</label>
+        <label for="projects">Which type of projects would you like to build?</label>
         <br>
-        <select id="age">
-          <option value="0-20">0-20</option>
-          <option value="21-40">21-40</option>
-          <option value="41+">41+</option>
+        <select id="projects">
+          <option value="design">Design</option>
+          <option value="android">Android applications</option>
+          <option value="websites">Websites for clients</option>
+          <option value="ruby+">Interactive web applications</option>
         </select>
         <br>
         <br>
-      <button type="submit" class="btn">Show me my celebrity!</button>
+        <label for="projects">5th question?</label>
+        <br>
+        <select id="projects">
+          <option value="design">Design</option>
+          <option value="android">Android applications</option>
+          <option value="websites">Websites for clients</option>
+          <option value="ruby+">Interactive web applications</option>
+        </select>
+        <br>
+        <br>
+      <button type="submit" class="btn">Click to find out your development track!</button>
       <br>
       <br>
     </form>
-        <p class="celebrity-names" id="brad"><img src="img/brad.jpg">Congratulations! You are dating Brad Pitt!</p>
-        <p class="celebrity-names" id="zach"><img src="img/zach.jpg">Sorry...You got Zach Galifianakis...</p>
+    <div class="answers">
+      <h1>Based off of your answers, we suggest you take the
+
+        <p class="tracks" id="ruby-railsPDX"><img src="img/ruby.jpg">Ruby/Rails Track in Portland. This is a .... link to epicodus??</p>
+        <p class="tracks" id="ruby-railsSEA"><img src="img/brad.jpg">Ruby/Rails Track in Portland. This is a .... link to epicodus??</p>
+
+        <p class="tracks" id="c#PDX"><img src="img/c#.jpg">C#/.NET.in Portland ... for more info please click HERE to visit Epicodus's page on C# and.NET</p>
+        <p class="tracks" id="c#SEA"><img src="img/c#.jpg">C#/.NET. Seattle... for more info please click HERE to visit Epicodus's page on C# and.NET</p>
+
+        <p class="tracks" id="phpPDX"><img src="img/php.jpg">PHP/Drupal track in Portland ... for more info please click HERE to visit Epicodus's page on C# and.NET</p>
+        <p class="tracks" id="phpSEA"><img src="img/php.jpg">PHP/Drupal track in S eattle... for more info please click HERE to visit Epicodus's page on C# and.NET</p>
+
+        <p class="tracks" id="javaPDX"><img src="img/java.jpg">JAVA/ Android track in Portland ... for more info please click HERE to visit Epicodus's page on C# and.NET</p>
+        <p class="tracks" id="javaSEA"><img src="img/java.jpg">C#/.NET. Seattle... for more info please click HERE to visit Epicodus's page on C# and.NET</p>
+
+        <p class="tracks" id="cssPDX"><img src="img/css.jpg">CSS/ Design track in Portland ... for more info please click HERE to visit Epicodus's page on C# and.NET</p>
+        <p class="tracks" id="cssSEA"><img src="img/java.jpg">CSS/ Design track in Seattle... for more info please click HERE to visit Epicodus's page on C# and.NET</p>
+
+
+
         <p class="celebrity-names" id="tom"><img src="img/tom.jpg">Not bad. You are dating Tom Cruise.</p>
     </div>
   </body>
