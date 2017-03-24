@@ -10,12 +10,17 @@ $(document).ready(function() {
     $(".tracks").hide();
 
     if (typeOfDev === "look" && location === "portland") {
-
     $("#cssPDX").show('slow');
 
-  } else if (projects === "android" && location === "seattle" ){
+  } else if (typeOfDev === "look" && location === "seattle") {
+    $("#cssSEA").show('slow');
 
+  } else if (projects === "android" && location === "seattle" ){
     $("#javaSEA").fadeIn('slow');
+  } else if (projects === "android" && location === "portland" ){
+    $("#javaPDX").fadeIn('slow');
+
+
 
   } else if (projects === "android" && location === "portland" ){
 
