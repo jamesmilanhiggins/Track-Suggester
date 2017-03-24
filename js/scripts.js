@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $("form#developer").submit(function(event) {
     // var location = $("input:radio[name=location:checked]").val();
+    var location = $("select#location").val();
     var typeOfDev = $("select#typeOfDev").val();
     var company = $("select#company").val();
     var projects = $("select#projects").val();
@@ -8,16 +9,21 @@ $(document).ready(function() {
 
     $(".tracks").hide();
 
-    if (typeOfDev === "work" && company === "startUp") {
+    if (typeOfDev === "look" && location === "portland") {
 
-    $("#ruby-railsPDX").show('slow');
+    $("#cssPDX").show('slow');
 
-  // } else if (age === "21-40" && vacay === "Hawaii" || age === "21-40" && vacay === "Italy"){
-  //
-  //   $("#tom").fadeIn('slow');
+  } else if (projects === "android" && location === "seattle" ){
+
+    $("#javaSEA").fadeIn('slow');
+
+  } else if (projects === "android" && location === "portland" ){
+
+    $("#javaPDX").fadeIn('slow');
 
     } else {
-    $("#cssSEA").fadeIn('slow');
+
+    $("#ruby-railsPDX").fadeIn('slow');
   }
 
   event.preventDefault();

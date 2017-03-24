@@ -2,49 +2,31 @@
   display: none;
 }
 
-
-
-
-
 .answers { Might have to hid individual p's with ids
   display: none;
-
-
-
-.epicodus {
-  color: red;
 }
+
 
 img {
   height: 200px;
   width: auto;
   padding: 5px;
 }
-/*
+
 body {
-  text-align: center;
+  text-align: center;*/
   font-size: 26px;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-position: center center;
-  position: fixed;
-  z-index: -1;*/
+  background-color: #969696;
+
 }
 
-/*.jumbotron {
-  background-color: #FD6E74;
-}*/
-
-/*.btn {
-  background-color: #FD6E74;
-  font-size: 30px;
-  font-weight: bolder;
+.jumbotron {
+  background-color: #00b3b4;
+  color: white;
 }
 
-.btn:active {
-  background: #FDD2D9;
-  box-shadow: none;
-  outline: 0px;
-}*/
+.btn {
+  background-color: #00b3b4;
+  font-size: 20px;
+  color: white;
+}
