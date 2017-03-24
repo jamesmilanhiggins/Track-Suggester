@@ -10,6 +10,7 @@ $(document).ready(function() {
 
     $(".yourName").text(yourNameInput);
     $(".tracks").hide();
+    $(".container").hide();
 
     if (typeOfDev === "look" && location === "portland") {
     $("#cssPDX").show('slow');
