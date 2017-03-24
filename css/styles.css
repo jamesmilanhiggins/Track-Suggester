@@ -13,16 +13,32 @@ img {
   padding: 5px;
 }
 body {
-  text-align: center;
+  text-align: left;
   font-size: 26px;
   background-color: #969696;
 }
 .jumbotron {
   background-color: #00b3b4;
+  text-align: center;
   color: white;
 }
 .btn {
   background-color: #00b3b4;
   font-size: 20px;
   color: white;
+}
+.sidebar {
+  float: left;
+  font-size: 20px;
+  background-color:#00b3b4;
+  margin: 5px;
+  padding: 5px;
+  text-align: left;
+}
+.sidebar h2 {
+  color: white;
+}
+.eTop {
+  height: 50px;
+  width: 80%;
 }
