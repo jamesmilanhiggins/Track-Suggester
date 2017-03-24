@@ -7,12 +7,10 @@ $(document).ready(function() {
     var projects = $("select#projects").val();
     var vacay = $("select#vacay").val();
 
-
     $(".yourName").text(yourNameInput);
     $(".tracks").hide();
     $(".container").hide();
     $(".sidebar").hide();
-
 
     if (projects === "android" && location === "portland") {
     $("#javaPDX").show('slow');
@@ -22,17 +20,18 @@ $(document).ready(function() {
     $("#cssSEA").show('slow');
   } else if (company === "agency" && location === "seattle") {
     $("#phpSEA").show('slow');
+  } else if (company === "agency" && location === "portland") {
+    $("#phpPDX").show('slow');
   } else if (company === "bigCompany" && location === "portland") {
     $("#csharpPDX").show('slow');
   } else if (company === "bigCompany" && location === "seattle") {
     $("#csharpSEA").show('slow');
 
-
     } else {
 
     $("#ruby-railsPDX").fadeIn('slow');
   }
-
+  
   event.preventDefault();
   });
 });
