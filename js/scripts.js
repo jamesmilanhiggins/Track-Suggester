@@ -9,7 +9,6 @@ $(document).ready(function() {
 
 
     $(".yourName").text(yourNameInput);
-
     $(".tracks").hide();
 
     if (typeOfDev === "look" && location === "portland") {
@@ -23,11 +22,11 @@ $(document).ready(function() {
   } else if (projects === "android" && location === "portland" ){
     $("#javaPDX").fadeIn('slow');
 
+  } else if (company === "agency" && location === "seattle" ){
+    $("#phpSEA").fadeIn('slow');
+  } else if (ompany === "agency" && location === "portland" ){
+    $("#phpPDX").fadeIn('slow');
 
-
-  } else if (projects === "android" && location === "portland" ){
-
-    $("#javaPDX").fadeIn('slow');
 
     } else {
 
